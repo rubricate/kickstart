@@ -1,0 +1,33 @@
+{
+    "name"        : "rubricate/skeleton",
+    "description" : "Skeleton for RubricatePHP MVC",
+    "homepage"    : "http://rubricate.github.io",
+    "license"     : "MIT",
+    "type"        : "project",
+    "authors": [
+        {
+            "name":  "Estefanio N Santos",
+            "email": "estefanions@gmail.com"
+        }
+    ],
+    "require"       : {
+        "php"           : ">=8.2",
+        "rubricate/relevant" : "^2.2",
+        "rubricate/resource" : "^2.2"
+    },
+    "keywords": [
+        "rubricateframework",
+        "rubricatephp",
+        "mvc"
+    ],
+    "support": {
+        "docs"   : "https://rubricate.github.io/components/skeleton",
+        "source" : "https://github.com/rubricate/skeleton"
+    },
+    "autoload" : {
+        "psr-4"    : {
+            "App\\"    : "App/"
+        }
+    }
+}
+

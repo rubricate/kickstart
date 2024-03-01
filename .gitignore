@@ -1,0 +1,5 @@
+*.vim
+tags
+vendor/
+phpunit.xml
+composer.lock
