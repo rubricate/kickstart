@@ -16,4 +16,4 @@ $ composer create-project rubricate/kickstart projectname
 ```
 localhost/projectname/public
 ```
-
+doc: https://rubricate.github.io/components/kickstart/
