@@ -1,6 +1,6 @@
 {
-    "name"        : "rubricate/skeleton",
-    "description" : "Skeleton for RubricatePHP MVC",
+    "name"        : "rubricate/kickstart",
+    "description" : "Kickstart for RubricatePHP MVC",
     "homepage"    : "http://rubricate.github.io",
     "license"     : "MIT",
     "type"        : "project",
@@ -21,8 +21,8 @@
         "mvc"
     ],
     "support": {
-        "docs"   : "https://rubricate.github.io/components/skeleton",
-        "source" : "https://github.com/rubricate/skeleton"
+        "docs"   : "https://rubricate.github.io/components/kickstart",
+        "source" : "https://github.com/rubricate/kickstart"
     },
     "autoload" : {
         "psr-4"    : {
