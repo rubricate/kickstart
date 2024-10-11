@@ -1,16 +1,16 @@
-# RubricatePHP Skeleton
+# RubricatePHP kickstart
 Folder suggestion
 
 ## Installation
 ```
-$ git clone https://github.com/rubricate/skeleton.git projectname
+$ git clone https://github.com/rubricate/kickstart.git projectname
 $ cd projectname
 $ composer install
 ```
 or:
 ## Installation 2:
 ```
-$ composer create-project rubricate/skeleton projectname 
+$ composer create-project rubricate/kickstart projectname 
 ```
 ## In the browser: 
 ```
