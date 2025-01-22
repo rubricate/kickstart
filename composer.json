@@ -11,9 +11,9 @@
         }
     ],
     "require"       : {
-        "php"           : ">=8.2",
-        "rubricate/relevant" : "^2.2",
-        "rubricate/resource" : "^2.2"
+        "php"           : ">=8.0",
+        "rubricate/relevant" : "^3.0",
+        "rubricate/resource" : "^3.0"
     },
     "keywords": [
         "rubricateframework",

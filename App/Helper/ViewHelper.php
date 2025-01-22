@@ -10,7 +10,7 @@ use Rubricate\Resource\BufferResource;
 
 class ViewHelper
 {
-    public function __construct($path = null)
+    public function __construct(?string $path = null)
     {
         $dir    = (is_null($path))? PATH_VIEW: $path;
         $path   = new DirectoryPathResource($dir);
@@ -21,7 +21,7 @@ class ViewHelper
         $this->buffer = $buffer;
     }
 
-    public function render(string $view, array $data = [])
+    public function render(string $view, array $data = []): void
     {
        $this->file->incorporate($view, $data);
     } 
