@@ -1,29 +1,33 @@
 <!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <title>Sign In | Rubricate PHP</title>
-    <link rel="stylesheet" href="../asset/css/custom.css" type="text/css" media="all" />
-</head>
+    <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <title>Sign In | Rubricate PHP</title>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dobokcss/reset@1/style.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dobokcss/dobokcss@1/css/style.min.css" />
+    </head>
 <body>
-<div class="content boxShadow">
+    <div class="container">
+    <header class="fold">
+        <h1 class="tx_scn">Sign In</h1>
+    </header>
+    </div>
 
-    <div class="header_page">
-        <h1>Sign In</h1>
-    </div>
-   
-    <div class="main">
+    <div class="fx_content">
+    <main class="container">
         <p>Form Sign In Here!</p>
+    </main>
     </div>
-        
-    <div class="expand">
+
+    <footer class="fold">
+        <div class="container">
         <p style="text-align: right"> 
-            <a target="_blank" href="http://rubricate.github.io/">
+            <a target="_blank" href="http://rubricate.github.io/" class="lk_scn">
                 rubricate.github.io
             </a> 
         </p>
-    </div>
-
-</div>    
+        </div>
+    </footer>
 </body>
-</html> 
+</html>
