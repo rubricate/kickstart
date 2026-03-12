@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controller;
+namespace App\Http\Controller\Admin;
 
 use App\Helper\ViewHelper;
 
-class IndexController
+class Error404Controller
 {
     public function __construct() 
     { 
@@ -13,7 +13,7 @@ class IndexController
     public function indexAction()
     {
         $view = new ViewHelper();
-        $view->render('index');
+        $view->render('admin/error404');
     } 
 }
 

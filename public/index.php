@@ -8,7 +8,7 @@ require PATH_ROOT . 'vendor/autoload.php';
 require PATH_ROOT . 'config/constant/init.php';
 
 $app = new Rubricate\Relevant\ApplicationRelevant(
-    'App.Controller'
+    'App.Http.Controller'
 );
 
 $app->setControllerNotFound([

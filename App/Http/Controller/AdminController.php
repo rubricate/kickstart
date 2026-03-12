@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controller\Admin;
+namespace App\Http\Controller;
 
 use App\Helper\ViewHelper;
 
-class Error404Controller
+class AdminController
 {
     public function __construct() 
     { 
@@ -12,8 +12,8 @@ class Error404Controller
 
     public function indexAction()
     {
-        $view = new ViewHelper();
-        $view->render('admin/error404');
+        header('location: ./admin-sign/in');
     } 
+
 }
 

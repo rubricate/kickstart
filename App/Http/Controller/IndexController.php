@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Controller;
+namespace App\Http\Controller;
 
 use App\Helper\ViewHelper;
 
-class AdminController
+class IndexController
 {
     public function __construct() 
     { 
@@ -12,8 +12,8 @@ class AdminController
 
     public function indexAction()
     {
-        header('location: ./admin-sign/in');
+        $view = new ViewHelper();
+        $view->render('index');
     } 
-
 }
 
