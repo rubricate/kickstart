@@ -12,7 +12,7 @@ class AdminController
 
     public function indexAction()
     {
-        header('location: ./admin-sign/in');
+        header('location: ./admin-auth/login');
     } 
 
 }

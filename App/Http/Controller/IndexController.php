@@ -13,7 +13,7 @@ class IndexController
     public function indexAction()
     {
         $view = new ViewHelper();
-        $view->render('index');
+        $view->render('page/index');
     } 
 }
 

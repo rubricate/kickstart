@@ -12,13 +12,13 @@ class SignController
 
     public function indexAction()
     {
-        header('location: ./admin-sign/in');
+        header('location: ./admin-auth/login');
     } 
 
     public function inAction()
     {
         $view = new ViewHelper();
-        $view->render('admin/sign/in');
+        $view->render('admin/auth/login');
     } 
 
 }

@@ -9,7 +9,7 @@ class Error404Controller
     public function indexAction()
     {
         $view = new ViewHelper();
-        $view->render('error404');
+        $view->render('page/error404');
     } 
 }
 
