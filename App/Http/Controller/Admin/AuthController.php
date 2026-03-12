@@ -4,7 +4,7 @@ namespace App\Http\Controller\Admin;
 
 use App\Helper\ViewHelper;
 
-class SignController
+class AuthController
 {
     public function __construct() 
     { 
@@ -15,10 +15,10 @@ class SignController
         header('location: ./admin-auth/login');
     } 
 
-    public function inAction()
+    public function loginAction()
     {
         $view = new ViewHelper();
-        $view->render('admin/auth/login');
+        $view->render('admin/page/auth/login');
     } 
 
 }
