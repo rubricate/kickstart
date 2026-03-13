@@ -1,5 +1,5 @@
 {
-    "name"        : "rubricate/kickstart",
+    "name"        : "rubricate/kickoff",
     "description" : "Kickstart for RubricatePHP MVC",
     "homepage"    : "http://rubricate.github.io",
     "license"     : "MIT",
@@ -21,8 +21,8 @@
         "mvc"
     ],
     "support": {
-        "docs"   : "https://rubricate.github.io/components/kickstart",
-        "source" : "https://github.com/rubricate/kickstart"
+        "docs"   : "https://rubricate.github.io/components/kickoff",
+        "source" : "https://github.com/rubricate/kickoff"
     },
     "autoload" : {
         "psr-4"    : {
